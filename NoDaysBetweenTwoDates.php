@@ -10,3 +10,6 @@ $timestamp2 = strtotime($date2);
 
 // Calculate the difference between the two timestamps
 $diff_seconds = abs($timestamp2 - $timestamp1);
+
+// Convert the difference in seconds to the number of days
+$diff_days = floor($diff_seconds / 86400);
