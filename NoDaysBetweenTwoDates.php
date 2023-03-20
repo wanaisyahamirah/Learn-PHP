@@ -13,3 +13,7 @@ $diff_seconds = abs($timestamp2 - $timestamp1);
 
 // Convert the difference in seconds to the number of days
 $diff_days = floor($diff_seconds / 86400);
+
+// Print the result to the screen using the echo statement.
+echo "The number of days between $date1 and $date2 is $diff_days.";
+
