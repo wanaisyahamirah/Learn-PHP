@@ -22,4 +22,6 @@ function displayResult($name) {
     echo "Hello, " . $name . "!";
 }
 
+$name = getInput();
+displayResult($name);
 ?>
