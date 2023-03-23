@@ -18,4 +18,8 @@ function getInput() {
     return $name;
 }
 
+function displayResult($name) {
+    echo "Hello, " . $name . "!";
+}
+
 ?>
