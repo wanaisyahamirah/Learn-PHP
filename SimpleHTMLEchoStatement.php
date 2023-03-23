@@ -13,5 +13,9 @@
 </html>
 
 <?php
+function getInput() {
+    $name = $_POST["name"];
+    return $name;
+}
 
 ?>
