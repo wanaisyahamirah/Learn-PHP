@@ -9,4 +9,7 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
     $ip_address = $_SERVER['REMOTE_ADDR'];
 }
 
+echo "Client IP address: " . $ip_address;
+
+
 ?>
