@@ -13,6 +13,13 @@ $known_browsers = array(
     'Edge' => 'Edge'
   );
   
+  // Loop through the array of known browsers and check if the user agent string contains the browser's user agent string
+    foreach ($known_browsers as $browser => $browser_string) {
+    if (strpos($user_agent, $browser_string) !== false) {
+      echo "You are using " . $browser . ".";
+      break;
+    }
+  }
 
 
 ?>
